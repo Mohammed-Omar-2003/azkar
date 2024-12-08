@@ -1,0 +1,130 @@
+/* Azkar Style */
+.azkar {
+  text-align: center;
+}
+.azkar h4 {
+  margin: -10px 0px 30px;
+}
+.azkar .element {
+  text-align: right;
+  margin-bottom: 80px;
+}
+.azkar .element div {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  padding: 15px 40px;
+  background-color: #bac8eb;
+  margin: 15px auto;
+  font-size: 17px;
+  font-weight: 700;
+  border-radius: 10px;
+  transition: 0.3s;
+  box-shadow: 2px 2px 7px #8896b5;
+}
+.azkar .element div:hover {
+  background-color: #a6b4d7;
+}
+.azkar .element .ico {
+  font-size: 25px;
+  
+}
+/* header */
+.header {
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  background: #485779;
+  text-align: right;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 5;
+}
+.header span {
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+.header span:hover {
+  color: #bac8eb;
+}
+.contaner {
+  margin-top: 100px;
+  text-align: center;
+}
+.box {
+  width: 50%;
+  background: #bac8eb;
+  margin: 20px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px #8896b5, -1px -1px 10px #8896b5;
+}
+.box .pasmala{
+margin-bottom: 20px;
+  font-weight: 700;
+
+}
+.box p {
+  font-size: 19px;
+  font-weight: 800;
+  color: #3a4661;
+  line-height: 1.7;
+}
+.contaner .button {
+  padding: 1px 50px;
+  background: #485779;
+  color: #fff;
+  position: relative;
+  z-index: 2;
+  border-radius: 5px;
+}
+.contaner .button h4 {
+  padding: 10px;
+  font-size: 23px;
+  font-weight: 700;
+}
+.contaner .button span {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+}
+/* retuen buttom */
+.return {
+  cursor: pointer;
+  background-color: #bac8eb;
+  width: 110px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px 20px;
+  box-shadow: 1px 1px 5px #8896b5;
+  font-weight: bold;
+  position: absolute;
+  bottom: -10vh;
+  right: 40px;
+  transition: 0.3s;
+  /* margin-bottom: 50px; */
+}
+.return:hover {
+  background-color: #a6b4d7;
+}
+@media (max-width: 762px) {
+  .azkar h4 {
+    margin-top: 50px;
+    margin-bottom: 60px;
+  }
+
+  .box {
+    width: 85%;
+    background: #bac8eb;
+    margin: 30px auto;
+  }
+  .return {
+    bottom: 3vh;
+    right: 20px;
+  }
+}

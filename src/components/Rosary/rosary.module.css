@@ -1,0 +1,106 @@
+.rosary {
+  text-align: center;
+}
+.rosary h4 {
+  margin: -10px 0px 50px;
+}
+select {
+  margin: 10px auto;
+  text-align: center;
+  padding: 10px;
+  background: #bac8eb;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 700;
+  box-shadow: 1px 1px 7px #8896b5;
+}
+
+.rosary .box {
+  margin: 10px auto;
+  padding: 20px;
+  width: 80%;
+  height: 50vh;
+  background: #485779;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px #7886a4;
+}
+.rosary .screen {
+  margin: 30px 30px 10px;
+  padding: 5px;
+  background: #dfe5f6;
+  border-radius: 10px;
+}
+.rosary .counter {
+  position: relative;
+}
+.rosary .counter .add {
+  width: 120px;
+  height: 120px;
+  background: #bac8eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: 80px auto;
+  font-size: 25px;
+  font-weight: bold;
+  box-shadow: 2px 2px 10px #fff, -2px -2px 10px #fff;
+  transition: 0.3s;
+  font-size: 15px;
+}
+.rosary .counter .add:hover {
+  background: #98a6c6;
+}
+.rosary .counter .again {
+  position: absolute;
+  right: 20px;
+  top: 0px;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  color: #fff;
+  z-index: 5;
+}
+.return {
+  cursor: pointer;
+  background-color: #bac8eb;
+  width: 110px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px 20px;
+  box-shadow: 1px 1px 5px #8896b5;
+  font-weight: bold;
+  position: absolute;
+  bottom: 2vh;
+  right: 40px;
+  transition: 0.3s;
+}
+.return:hover {
+  background-color: #a6b4d7;
+}
+@media (max-width: 762px) {
+  .rosary h4 {
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+  .return {
+    bottom: -5vh;
+    right: 30px;
+  }
+  select {
+    margin-top: 50px;
+  }
+  .rosary .box {
+    margin-top: 20px;
+  }
+  .rosary .counter .again {
+    top: 4px;
+    right: 0;
+  }
+  .rosary .counter .add {
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+  }
+}

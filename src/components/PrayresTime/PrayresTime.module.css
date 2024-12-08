@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cairo", sans-serif;
+}
+/* background-color:#dfe5f6; */
+/* background-color:#bac8eb; */
+/* background-color:#485778; */
+.body {
+  direction: rtl;
+  /* display: flex;
+  align-items: center; */
+  text-align: center;
+}
+
+.conatner {
+  margin-top: 30px;
+  margin: 50px auto;
+  width: 650px;
+  background: #485778;
+  backdrop-filter: blur(10px);
+  padding: 25px 30px;
+  border-radius: 10px;
+}
+.conatner .header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #d7d7d74e;
+  margin-bottom: 20px;
+}
+.conatner .top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.conatner .top input {
+  /* width: 140px; */
+  padding: 8px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  color: #485778;
+  font-weight: 600;
+  background: #dfe5f6;
+  transition: 0.3s;
+}
+.conatner .top input:focus {
+  background-color: #c0c8db;
+  /* color: #fff; */
+}
+.conatner .top .date {
+  width: 250px;
+}
+.conatner .top .date h4 {
+  font-size: 26px;
+  color: #dfe5f6;
+}
+.time {
+  margin: auto;
+  border: 1px solid #d7d7d74e;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px 20px;
+  background-color: #1a243a;
+  border-radius: 5px;
+  color: #dfe5f6;
+}
+.time h5 {
+  font-weight: 600;
+}
+.prayer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #dfe5f6;
+  align-items: center;
+  border-radius: 5px;
+  padding: 5px 25px 0px;
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #485778;
+  border: 1px solid #d7d7d74e;
+}
+.return {
+  width: 40px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 22px;
+  position: absolute;
+  top: 2vh;
+  right: 20px;
+  transition: 0.3s;
+  color: #485778;
+}
+.return:hover {
+  margin-right: 20px;
+}
+@media (max-width: 768px) {
+  .conatner {
+    width: 90%;
+    height:95%;
+    margin: 30 auto;
+    padding: 20px;
+  }
+  .conatner .top {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    padding-top: 30px;
+  }
+  .conatner .top .city {
+    width: 300px;
+  }
+  .conatner .top input {
+    width: 140px;
+  }
+  .conatner .top .date h4 {
+    font-size: 16px;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .time {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .prayer {
+    padding: 10px 25px;
+    font-size: 18px;
+    text-align: center;
+  }
+  .return {
+    margin: 10px;
+    top: 0vh;
+    right: 5px;
+  }
+}

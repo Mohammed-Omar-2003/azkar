@@ -1,0 +1,10 @@
+.pirant {
+  z-index: 2;
+  /* margin-bottom: -100px; */
+}
+@media (min-width: 940px) {
+  .pirant {
+    margin-top: -50px;
+  }
+}
+
