@@ -64,12 +64,22 @@ npm start
 
 ## 📸 Screenshots
 
-(Add your project screenshots here)
+## 📸 Screenshots
 
-```
-![Home](images/home.png)
-![Azkar](images/azkar.png)
-```
+### 🏠 Home
+![Home](home.png)
+
+### 📿 Azkar Section
+![Azkar](remembrances.png)
+
+### 🧭 Qibla Direction
+![Qibla](qibla.png)
+
+### 🔢 Tasbeeh Counter
+![Tasbeeh](prayer.png)
+
+### 🕰️ Prayer Times
+![Prayer Times](prayertime.png)
 
 ---
 
