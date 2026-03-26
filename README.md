@@ -64,8 +64,6 @@ npm start
 
 ## 📸 Screenshots
 
-## 📸 Screenshots
-
 ### 🏠 Home
 ![Home](home.png)
 
@@ -87,14 +85,4 @@ npm start
 
 Helping Muslims maintain daily remembrance and prayers using modern web technologies.
 
----
 
-## ❤️ Contributing
-
-Feel free to fork the project and contribute!
-
----
-
-## 📄 License
-
-This project is open-source and available for everyone.
