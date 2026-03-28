@@ -39,11 +39,10 @@ This project is a frontend application that provides essential Islamic tools, in
 * APIs (for prayer times & location)
 
 ---
----
 
 ## 🚀 Live Demo
 
-🔗 https://lnkd.in/drQhKx5r
+🔗 https://zakarne-72f8b.web.app/
 
 ---
 
