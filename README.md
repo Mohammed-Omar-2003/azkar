@@ -84,11 +84,3 @@ npm start
 
 ### 🕰️ Prayer Times
 ![Prayer Times](prayertime.png)
-
----
-
-## 🎯 هدف المشروع
-
-Helping Muslims maintain daily remembrance and prayers using modern web technologies.
-
-
